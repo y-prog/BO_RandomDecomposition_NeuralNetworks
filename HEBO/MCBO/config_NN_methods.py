@@ -84,43 +84,6 @@ class flex_NN:
 
         return A.T
 
-    def backward_prop(self, activation_hidden_deriv, activation_output_deriv,
-                      caches, parameters, dA_output):
-        """
-        Perform backward propagation through each layer of the neural network.
-
-        Parameters:
-        activation_hidden_deriv -- derivative of the hidden layer activation function
-        activation_output_deriv -- derivative of the output layer activation function
-        caches -- list of tuples containing the linear and activation values for each layer
-        parameters -- dictionary containing the parameters 'W0', 'b0', 'W1', 'b1', ..., 'Wn', 'bn'
-        dA_output -- derivative of the output layer activation function with respect to the output
-
-        Returns:
-        grads -- dictionary containing the gradients 'dW0', 'db0', 'dW1', 'db1', ..., 'dWn', 'dbn'
-        """
-        grads = {}
-        num_layers = len(parameters) // 2
-        m = self.X_data.shape[1]
-
-        # Initialize gradients for output layer
-        dA_prev = dA_output
-
-        # Loop through each layer in reverse order
-        for i in reversed(range(num_layers)):
-            Z, A = caches[i]
-            W = parameters[f'W{i}']
-            dZ = dA_prev * activation_output_deriv(Z)
-
-            dW = 1 / m * np.dot(dZ, A.T)
-            db = 1 / m * np.sum(dZ, axis=1, keepdims=True)
-            dA_prev = np.dot(W.T, dZ)
-
-            grads[f'dW{i}'] = dW
-            grads[f'db{i}'] = db
-
-        return grads
-
 class loss_functions:
     def __init__(self, y_data):
         self.y_data = y_data
@@ -141,6 +104,12 @@ class loss_functions:
         cost = np.mean((np.array(self.y_data) - y_pred) ** 2)  # Mean squared error
         return cost
 
+    def r_squared(self, y_pred):
+        ss_res = np.sum((np.array(self.y_data) - y_pred) ** 2)  # Sum of squared residuals
+        ss_tot = np.sum((np.array(self.y_data) - np.mean(self.y_data)) ** 2)  # Total sum of squares
+        r2 = 1 - (ss_res / ss_tot)  # R-squared
+        return r2
+
 
 class activation_functions:
     @staticmethod
@@ -159,4 +128,8 @@ class activation_functions:
     def softmax(x):
         exp_x = np.exp(x - np.max(x, axis=0))  # Subtract max to avoid overflow
         return exp_x / np.sum(exp_x, axis=0)
+
+    @staticmethod
+    def linear(x):
+        return x
 
