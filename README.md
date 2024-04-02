@@ -29,7 +29,7 @@ To run the main script:
 
 1. Clone the repository:
    
-   git clone [repository_url]
+   git clone https://github.com/y-prog/BO_RandomDecomposition_NeuralNetworks.git
 
 2. open scripts.py in the following directory BO_RandomDecomposition_NeuralNetworks
 /HEBO/scripts
