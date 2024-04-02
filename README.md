@@ -7,7 +7,8 @@ to a Feed Forward Neural Network as an alterative to the traditional back-propag
 
 ## Project Structure
 
-- `HEBO/MCBO/scripts`: Directory containing Bo_usage.py taking the titanic dataset as input.
+- `BO_RandomDecomposition_NeuralNetworks
+/HEBO/scripts`: Directory containing Bo_usage.py taking the titanic dataset as input.
   - `MCBO/`: Subdirectory containing modules related to MCBO.
 
 ## Preprocessing Data
