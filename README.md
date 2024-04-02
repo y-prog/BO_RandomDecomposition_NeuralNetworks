@@ -11,9 +11,10 @@ to a Feed Forward Neural Network as an alterative to the traditional back-propag
 /HEBO/scripts`: Directory containing Bo_usage.py taking the titanic dataset as input.
   - ``BO_RandomDecomposition_NeuralNetworks
 /HEBO/MCBO/`: Subdirectory containing the following:
-            config_NN_methods.py
-            BO_methods.py
-            BO_pipeline.py
+           - config_NN_methods.py
+           - BO_methods.py
+           - BO_pipeline.py
+    which need to be imported in script.py
 ## Preprocessing Data
 
 This project includes a preprocessing function designed specifically for the Titanic dataset from Kaggle. 
