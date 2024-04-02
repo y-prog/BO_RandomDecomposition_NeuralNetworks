@@ -1,10 +1,11 @@
 from MCBO.BO_methods import CustomTask
 from MCBO.config_NN_methods import flex_NN, activation_functions, loss_functions
 from MCBO.BO_pipeline import WeightAndBiasOptimizer
-import pandas as pd
 from sklearn.model_selection import train_test_split
 from MCBO.mcbo.optimizers.bo_builder import BoBuilder
 from sklearn.preprocessing import MinMaxScaler
+import pandas as pd
+
 
 # Function to preprocess the data
 def preprocess_data(df, preds_list, target_var):
@@ -20,6 +21,7 @@ def preprocess_data(df, preds_list, target_var):
     # Scale the features using Min-Max scaling
     X = pd.DataFrame(MinMaxScaler().fit_transform(X), columns=X.columns)
     return X, target
+
 
 # Load and preprocess data
 df = pd.read_csv('train.csv')
