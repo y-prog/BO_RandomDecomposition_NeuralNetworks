@@ -26,8 +26,15 @@ You can refer to the preprocessing function as a reference or starting point for
 
 ## Usage
 
-To run the main script:
+### Setting up the Environment
 
+1. Create a conda environment (e.g., `mcbo_env`) by running the following command:
+
+   ```
+   conda create --name mcbo_env
+   conda activate mcbo_env
+
+## Getting Started
 1. Clone the repository:
    
    git clone https://github.com/y-prog/BO_RandomDecomposition_NeuralNetworks.git
