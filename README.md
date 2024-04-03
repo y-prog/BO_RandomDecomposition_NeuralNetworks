@@ -48,3 +48,31 @@ You can refer to the preprocessing function as a reference or starting point for
 
 4. Run scripts.py 
    
+
+
+## Output Description
+The script provided performs the following tasks:
+
+
+
+1. Loads the training data from a CSV file (train.csv).
+Calls the preprocess_data() function to preprocess the loaded data.
+Splits the preprocessed data into training and testing sets using a 33% test size and a random state of 42.
+Defining Neural Network Architecture:
+
+2. Defines the sizes of the neural network layers based on the number of input features.
+Instantiates neural network objects and activation functions.
+Optimizing Weights and Biases:
+
+3. Constructs a CustomTask object and defines the search space for Bayesian optimization.
+Builds an optimizer using Bayesian Optimization (BO) techniques.
+Optimizes weights and biases using BO with the specified number of iterations.
+Evaluating on Test Data:
+
+4. Evaluates the optimized model on the test data.
+Computes the accuracy of the model on the test set.
+Output Results:
+
+5. Prints the best weights and biases obtained from optimization.
+   Prints the training set accuracy obtained during optimization.
+   Prints the test set accuracy obtained after evaluating the mode
