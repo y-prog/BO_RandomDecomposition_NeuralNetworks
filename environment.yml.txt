@@ -1,0 +1,8 @@
+name: mcbo_env
+channels:
+  - defaults
+packages:
+  - pandas
+  - numpy
+  - scikit-learn
+ 
