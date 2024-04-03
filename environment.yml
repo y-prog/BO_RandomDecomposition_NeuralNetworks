@@ -1,8 +1,9 @@
 name: mcbo_env
 channels:
   - defaults
-packages:
+  - conda-forge
+dependencies:
   - pandas
   - numpy
   - scikit-learn
- 
+  - gpytorch
