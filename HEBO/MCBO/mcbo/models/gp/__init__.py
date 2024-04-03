@@ -7,6 +7,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.models.gp.combo_gp import ComboGPModel, ComboEnsembleGPModel
-from mcbo.models.gp.exact_gp import ExactGPModel
-from mcbo.models.gp.rand_decomposition_gp import RandDecompositionGP, RandEnsembleGPModel
+from HEBO.MCBO.mcbo.models.gp.combo_gp import ComboGPModel, ComboEnsembleGPModel
+from HEBO.MCBO.mcbo.models.gp.exact_gp import ExactGPModel
+from HEBO.MCBO.mcbo.models.gp.rand_decomposition_gp import RandDecompositionGP, RandEnsembleGPModel

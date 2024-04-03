@@ -12,7 +12,7 @@ from typing import Union, Optional, List
 
 import torch
 
-from mcbo.models import ModelBase, EnsembleModelBase
+from HEBO.MCBO.mcbo.models import ModelBase, EnsembleModelBase
 
 
 class AcqBase(ABC):

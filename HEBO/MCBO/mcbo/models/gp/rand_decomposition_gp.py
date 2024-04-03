@@ -15,10 +15,10 @@ from .gpytorch.kernels import Kernel, ScaleKernel, RBFKernel, AdditiveKernel
 from .gpytorch.priors import Prior
 from .gpytorch.utils.errors import NanError, NotPSDError
 
-from mcbo.models.gp import ExactGPModel
-from mcbo.models.gp.kernels import DecompositionKernel
-from mcbo.models.model_base import EnsembleModelBase
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.models.gp import ExactGPModel
+from HEBO.MCBO.mcbo.models.gp.kernels import DecompositionKernel
+from HEBO.MCBO.mcbo.models.model_base import EnsembleModelBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 
 
 

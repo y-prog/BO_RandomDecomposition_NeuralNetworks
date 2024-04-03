@@ -2,8 +2,8 @@ from typing import Dict, Type, Union, List, Optional, Any
 
 import numpy as np
 
-from mcbo.tasks.synthetic.sfu.sfu_base import SfuFunction
-from mcbo.tasks.synthetic.sfu.sfu_functions import MANY_LOCAL_MINIMA, BOWL_SHAPED, PLATE_SHAPED, VALLEY_SHAPED, \
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_base import SfuFunction
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions import MANY_LOCAL_MINIMA, BOWL_SHAPED, PLATE_SHAPED, VALLEY_SHAPED, \
     STEEP_RIDGES, OTHER
 
 SFU_FUNCTIONS: Dict[str, Type[SfuFunction]] = dict(**MANY_LOCAL_MINIMA, **BOWL_SHAPED, **PLATE_SHAPED, **VALLEY_SHAPED,

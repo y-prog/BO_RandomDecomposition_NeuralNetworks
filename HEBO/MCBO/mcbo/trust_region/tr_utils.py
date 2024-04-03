@@ -15,11 +15,11 @@ import torch
 from ..models.gp.gpytorch.kernels import ScaleKernel, RBFKernel, MaternKernel
 from torch.quasirandom import SobolEngine
 
-from mcbo.models import ExactGPModel, ModelBase
-from mcbo.models.gp.kernels import MixtureKernel, ConditionalTransformedOverlapKernel, DecompositionKernel
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.utils.discrete_vars_utils import round_discrete_vars
+from HEBO.MCBO.mcbo.models import ExactGPModel, ModelBase
+from HEBO.MCBO.mcbo.models.gp.kernels import MixtureKernel, ConditionalTransformedOverlapKernel, DecompositionKernel
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.utils.discrete_vars_utils import round_discrete_vars
 
 
 def get_num_tr_bounds(

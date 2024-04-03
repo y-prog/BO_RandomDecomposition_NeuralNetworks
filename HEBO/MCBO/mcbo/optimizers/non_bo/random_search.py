@@ -11,12 +11,12 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.optimizers.optimizer_base import OptimizerNotBO
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
-from mcbo.utils.discrete_vars_utils import get_discrete_choices
-from mcbo.utils.plot_resource_utils import COLORS_SNS_10, get_color
+from HEBO.MCBO.mcbo.optimizers.optimizer_base import OptimizerNotBO
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
+from HEBO.MCBO.mcbo.utils.discrete_vars_utils import get_discrete_choices
+from HEBO.MCBO.mcbo.utils.plot_resource_utils import COLORS_SNS_10, get_color
 
 
 class RandomSearch(OptimizerNotBO):

@@ -12,7 +12,7 @@ from typing import List
 import numpy as np
 import torch
 
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 
 
 def laplacian_eigen_decomposition(search_space: SearchSpace, device: torch.device) -> (

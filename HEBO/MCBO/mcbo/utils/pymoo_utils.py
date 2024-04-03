@@ -5,8 +5,8 @@ import pandas as pd
 import torch
 from pymoo.config import Config
 
-from mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
-from mcbo.utils.constraints_utils import input_eval_from_origx, sample_input_valid_points
+from HEBO.MCBO.mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
+from HEBO.MCBO.mcbo.utils.constraints_utils import input_eval_from_origx, sample_input_valid_points
 
 Config.warnings['not_compiled'] = False
 
@@ -14,15 +14,15 @@ from pymoo.core.problem import Problem
 from pymoo.core.repair import Repair
 from pymoo.core.variable import Real, Integer, Choice, Binary, Variable
 
-from mcbo.search_space import SearchSpace
-from mcbo.search_space.params.bool_param import BoolPara
-from mcbo.search_space.params.integer_param import IntegerPara
-from mcbo.search_space.params.nominal_param import NominalPara
-from mcbo.search_space.params.numeric_param import NumericPara
-from mcbo.search_space.params.pow_param import PowPara
-from mcbo.trust_region.tr_manager_base import TrManagerBase
-from mcbo.utils.discrete_vars_utils import get_discrete_choices
-from mcbo.utils.distance_metrics import hamming_distance
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space.params.bool_param import BoolPara
+from HEBO.MCBO.mcbo.search_space.params.integer_param import IntegerPara
+from HEBO.MCBO.mcbo.search_space.params.nominal_param import NominalPara
+from HEBO.MCBO.mcbo.search_space.params.numeric_param import NumericPara
+from HEBO.MCBO.mcbo.search_space.params.pow_param import PowPara
+from HEBO.MCBO.mcbo.trust_region.tr_manager_base import TrManagerBase
+from HEBO.MCBO.mcbo.utils.discrete_vars_utils import get_discrete_choices
+from HEBO.MCBO.mcbo.utils.distance_metrics import hamming_distance
 
 
 class PymooProblem(Problem):

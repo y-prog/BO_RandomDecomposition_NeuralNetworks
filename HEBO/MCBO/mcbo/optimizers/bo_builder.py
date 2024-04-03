@@ -6,22 +6,22 @@ import math
 import numpy as np
 import torch
 
-from mcbo.acq_funcs import acq_factory
-from mcbo.acq_optimizers import AcqOptimizerBase
-from mcbo.acq_optimizers.genetic_algorithm_acq_optimizer import GeneticAlgoAcqOptimizer
-from mcbo.acq_optimizers.interleaved_search_acq_optimizer import InterleavedSearchAcqOptimizer
-from mcbo.acq_optimizers.local_search_acq_optimizer import LsAcqOptimizer
-from mcbo.acq_optimizers.message_passing_optimizer import MessagePassingOptimizer
-from mcbo.acq_optimizers.mixed_mab_acq_optimizer import MixedMabAcqOptimizer
-from mcbo.acq_optimizers.random_search_acq_optimizer import RandomSearchAcqOptimizer
-from mcbo.acq_optimizers.simulated_annealing_acq_optimizer import SimulatedAnnealingAcqOptimizer
-from mcbo.models import ModelBase, ExactGPModel, ComboEnsembleGPModel, LinRegModel, RandDecompositionGP
-from mcbo.models.gp.kernel_factory import mixture_kernel_factory, kernel_factory
-from mcbo.optimizers import BoBase
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
-from mcbo.utils.graph_utils import laplacian_eigen_decomposition
+from HEBO.MCBO.mcbo.acq_funcs import acq_factory
+from HEBO.MCBO.mcbo.acq_optimizers import AcqOptimizerBase
+from HEBO.MCBO.mcbo.acq_optimizers.genetic_algorithm_acq_optimizer import GeneticAlgoAcqOptimizer
+from HEBO.MCBO.mcbo.acq_optimizers.interleaved_search_acq_optimizer import InterleavedSearchAcqOptimizer
+from HEBO.MCBO.mcbo.acq_optimizers.local_search_acq_optimizer import LsAcqOptimizer
+from HEBO.MCBO.mcbo.acq_optimizers.message_passing_optimizer import MessagePassingOptimizer
+from HEBO.MCBO.mcbo.acq_optimizers.mixed_mab_acq_optimizer import MixedMabAcqOptimizer
+from HEBO.MCBO.mcbo.acq_optimizers.random_search_acq_optimizer import RandomSearchAcqOptimizer
+from HEBO.MCBO.mcbo.acq_optimizers.simulated_annealing_acq_optimizer import SimulatedAnnealingAcqOptimizer
+from HEBO.MCBO.mcbo.models import ModelBase, ExactGPModel, ComboEnsembleGPModel, LinRegModel, RandDecompositionGP
+from HEBO.MCBO.mcbo.models.gp.kernel_factory import mixture_kernel_factory, kernel_factory
+from HEBO.MCBO.mcbo.optimizers import BoBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
+from HEBO.MCBO.mcbo.utils.graph_utils import laplacian_eigen_decomposition
 
 # ------ MODEL KWs -------------------
 DEFAULT_MODEL_EXACT_GP_KERNEL_KWARGS: Dict[str, Any] = dict(

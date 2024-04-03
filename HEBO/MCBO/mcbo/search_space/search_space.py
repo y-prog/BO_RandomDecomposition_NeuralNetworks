@@ -13,16 +13,16 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.search_space.params.bool_param import BoolPara
-from mcbo.search_space.params.int_exponent_param import IntExponentPara
-from mcbo.search_space.params.integer_param import IntegerPara
-from mcbo.search_space.params.nominal_param import NominalPara
-from mcbo.search_space.params.numeric_param import NumericPara
-from mcbo.search_space.params.param import Parameter
-from mcbo.search_space.params.permutation_param import PermutationPara
-from mcbo.search_space.params.pow_integer_param import PowIntegerPara
-from mcbo.search_space.params.pow_param import PowPara
-from mcbo.search_space.params.sigmoid_param import SigmoidPara
+from HEBO.MCBO.mcbo.search_space.params.bool_param import BoolPara
+from HEBO.MCBO.mcbo.search_space.params.int_exponent_param import IntExponentPara
+from HEBO.MCBO.mcbo.search_space.params.integer_param import IntegerPara
+from HEBO.MCBO.mcbo.search_space.params.nominal_param import NominalPara
+from HEBO.MCBO.mcbo.search_space.params.numeric_param import NumericPara
+from HEBO.MCBO.mcbo.search_space.params.param import Parameter
+from HEBO.MCBO.mcbo.search_space.params.permutation_param import PermutationPara
+from HEBO.MCBO.mcbo.search_space.params.pow_integer_param import PowIntegerPara
+from HEBO.MCBO.mcbo.search_space.params.pow_param import PowPara
+from HEBO.MCBO.mcbo.search_space.params.sigmoid_param import SigmoidPara
 
 
 class SearchSpace:

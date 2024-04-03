@@ -7,4 +7,4 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.models.linear_reagression.linear_regression import LinRegModel
+from HEBO.MCBO.mcbo.models.linear_reagression.linear_regression import LinRegModel

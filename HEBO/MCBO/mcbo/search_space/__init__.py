@@ -7,4 +7,4 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.search_space.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space.search_space import SearchSpace

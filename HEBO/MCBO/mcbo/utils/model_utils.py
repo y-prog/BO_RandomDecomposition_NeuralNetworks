@@ -9,9 +9,9 @@
 
 import torch
 
-from mcbo.global_settings import MIN_LEN_CUDA
-from mcbo.utils.data_buffer import DataBuffer
-from mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.global_settings import MIN_LEN_CUDA
+from HEBO.MCBO.mcbo.utils.data_buffer import DataBuffer
+from HEBO.MCBO.mcbo.models import ModelBase
 
 
 def move_model_to_device(model: ModelBase, data_buffer: DataBuffer, target_device: torch.device):

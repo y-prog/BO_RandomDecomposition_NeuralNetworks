@@ -5,27 +5,27 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.tasks.synthetic.sfu.sfu_functions.ackley import Ackley
-from mcbo.tasks.synthetic.sfu.sfu_functions.dixon_price import DixonPrice
-from mcbo.tasks.synthetic.sfu.sfu_functions.griewank import Griewank
-from mcbo.tasks.synthetic.sfu.sfu_functions.langermann import Langermann
-from mcbo.tasks.synthetic.sfu.sfu_functions.levy import Levy
-from mcbo.tasks.synthetic.sfu.sfu_functions.michalewicz import Michalewicz
-from mcbo.tasks.synthetic.sfu.sfu_functions.modified_sphere import ModifiedSphere
-from mcbo.tasks.synthetic.sfu.sfu_functions.perm import Perm
-from mcbo.tasks.synthetic.sfu.sfu_functions.perm0 import Perm0
-from mcbo.tasks.synthetic.sfu.sfu_functions.powell import Powell
-from mcbo.tasks.synthetic.sfu.sfu_functions.power_sum import PowSum
-from mcbo.tasks.synthetic.sfu.sfu_functions.rastrigin import Rastrigin
-from mcbo.tasks.synthetic.sfu.sfu_functions.rosenbrock import Rosenbrock
-from mcbo.tasks.synthetic.sfu.sfu_functions.rotated_hyper_ellipsoid import RotHyp
-from mcbo.tasks.synthetic.sfu.sfu_functions.schwefel import Schwefel
-from mcbo.tasks.synthetic.sfu.sfu_functions.sphere import Sphere
-from mcbo.tasks.synthetic.sfu.sfu_functions.styblinski_tang import StyblinskiTang
-from mcbo.tasks.synthetic.sfu.sfu_functions.sum_pow import SumPow
-from mcbo.tasks.synthetic.sfu.sfu_functions.sum_squares import SumSquares
-from mcbo.tasks.synthetic.sfu.sfu_functions.trid import Trid
-from mcbo.tasks.synthetic.sfu.sfu_functions.zakharov import Zakharov
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.ackley import Ackley
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.dixon_price import DixonPrice
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.griewank import Griewank
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.langermann import Langermann
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.levy import Levy
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.michalewicz import Michalewicz
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.modified_sphere import ModifiedSphere
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.perm import Perm
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.perm0 import Perm0
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.powell import Powell
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.power_sum import PowSum
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.rastrigin import Rastrigin
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.rosenbrock import Rosenbrock
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.rotated_hyper_ellipsoid import RotHyp
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.schwefel import Schwefel
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.sphere import Sphere
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.styblinski_tang import StyblinskiTang
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.sum_pow import SumPow
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.sum_squares import SumSquares
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.trid import Trid
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_functions.zakharov import Zakharov
 
 MANY_LOCAL_MINIMA = {'ackley': Ackley,
                      'griewank': Griewank,

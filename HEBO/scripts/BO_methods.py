@@ -1,9 +1,11 @@
 from config_NN_methods import flex_NN
+#from MCBO.config_NN_methods import flex_NN
 import numpy as np
 import pandas as pd
 from typing import List, Tuple, Any, Dict
-from mcbo.tasks.task_base import TaskBase
-
+#from HEBO.MCBO.mcbo.tasks.task_base import TaskBase
+#from mcbo.tasks.task_base import TaskBase
+from HEBO.MCBO.mcbo.tasks.task_base import TaskBase
 
 class CustomTask(TaskBase):
     def __init__(self, layer_sizes, X_data, y_data):  # pars

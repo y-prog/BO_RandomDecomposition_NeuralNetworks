@@ -14,11 +14,11 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.search_space import SearchSpace
-from mcbo.utils.constraints_utils import input_eval_from_origx, input_eval_from_transfx, \
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.utils.constraints_utils import input_eval_from_origx, input_eval_from_transfx, \
     sample_input_valid_points
-from mcbo.utils.data_buffer import DataBuffer
-from mcbo.utils.general_utils import filter_nans
+from HEBO.MCBO.mcbo.utils.data_buffer import DataBuffer
+from HEBO.MCBO.mcbo.utils.general_utils import filter_nans
 
 
 class OptimizerBase(ABC):

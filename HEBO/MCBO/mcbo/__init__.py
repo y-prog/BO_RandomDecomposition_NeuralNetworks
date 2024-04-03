@@ -7,8 +7,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo import acq_funcs, acq_optimizers, models, optimizers, search_space, tasks, trust_region, utils
-from mcbo.task_factory import task_factory
-from mcbo.global_settings import *
+from HEBO.MCBO.mcbo import acq_funcs, acq_optimizers, models, optimizers, search_space, tasks, trust_region, utils
+from HEBO.MCBO.mcbo.task_factory import task_factory
+from HEBO.MCBO.mcbo.global_settings import *
 
 __version__ = "0.0.1"

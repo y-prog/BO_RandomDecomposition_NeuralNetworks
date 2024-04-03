@@ -7,6 +7,6 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.models.model_base import ModelBase, EnsembleModelBase
-from mcbo.models.linear_reagression import LinRegModel
-from mcbo.models.gp import ExactGPModel, ComboGPModel, ComboEnsembleGPModel, RandDecompositionGP, RandEnsembleGPModel
+from HEBO.MCBO.mcbo.models.model_base import ModelBase, EnsembleModelBase
+from HEBO.MCBO.mcbo.models.linear_reagression import LinRegModel
+from HEBO.MCBO.mcbo.models.gp import ExactGPModel, ComboGPModel, ComboEnsembleGPModel, RandDecompositionGP, RandEnsembleGPModel

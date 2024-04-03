@@ -4,7 +4,7 @@ from typing import List, Dict, Any
 import numpy as np
 import pandas as pd
 
-from mcbo.tasks import TaskBase
+from HEBO.MCBO.mcbo.tasks import TaskBase
 
 
 # This program is free software; you can redistribute it and/or modify it under

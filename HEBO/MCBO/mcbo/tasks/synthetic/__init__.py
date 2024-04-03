@@ -7,5 +7,5 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.tasks.synthetic.sfu import *
-from mcbo.tasks.synthetic.pest import PestControl
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu import *
+from HEBO.MCBO.mcbo.tasks.synthetic.pest import PestControl

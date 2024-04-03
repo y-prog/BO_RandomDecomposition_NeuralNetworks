@@ -20,12 +20,12 @@ import torch
 import gpytorch
 from .gpytorch.means import ConstantMean
 
-from mcbo.models import ModelBase, EnsembleModelBase
-from mcbo.models.gp.kernels import DiffusionKernel
-from mcbo.search_space import SearchSpace
-from mcbo.utils.sampling import univariate_slice_sampling
-from mcbo.utils.training_utils import remove_repeating_samples
-from mcbo.utils.training_utils import subsample_training_data
+from HEBO.MCBO.mcbo.models import ModelBase, EnsembleModelBase
+from HEBO.MCBO.mcbo.models.gp.kernels import DiffusionKernel
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.utils.sampling import univariate_slice_sampling
+from HEBO.MCBO.mcbo.utils.training_utils import remove_repeating_samples
+from HEBO.MCBO.mcbo.utils.training_utils import subsample_training_data
 
 
 class ComboGPModel(ModelBase):

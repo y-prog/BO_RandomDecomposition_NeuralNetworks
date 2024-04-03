@@ -15,7 +15,7 @@ from typing import List, Dict, Any
 import numpy as np
 import pandas as pd
 
-from mcbo.tasks.task_base import TaskBase
+from HEBO.MCBO.mcbo.tasks.task_base import TaskBase
 
 
 class MigSeqOpt(TaskBase):

@@ -3,8 +3,8 @@ from typing import Union, List, Optional, Dict, Any
 import numpy as np
 import pandas as pd
 
-from mcbo.tasks import TaskBase
-from mcbo.tasks.synthetic.sfu.utils_sfu import SFU_FUNCTIONS, _sfu_search_space_params_factory, \
+from HEBO.MCBO.mcbo.tasks import TaskBase
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.utils_sfu import SFU_FUNCTIONS, _sfu_search_space_params_factory, \
     default_sfu_params_factory
 
 

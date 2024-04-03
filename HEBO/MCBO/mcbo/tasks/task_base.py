@@ -14,7 +14,7 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 
 
 class TaskBase(ABC):

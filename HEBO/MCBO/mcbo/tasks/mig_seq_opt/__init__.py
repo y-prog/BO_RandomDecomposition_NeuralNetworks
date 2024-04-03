@@ -7,4 +7,4 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.tasks.mig_seq_opt.mig_seq_opt_task import MigSeqOpt
+from HEBO.MCBO.mcbo.tasks.mig_seq_opt.mig_seq_opt_task import MigSeqOpt

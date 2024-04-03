@@ -12,17 +12,17 @@ from typing import Union, Optional, List, Callable, Dict
 import pandas as pd
 import torch
 
-from mcbo.acq_funcs import AcqBase
-from mcbo.models import ModelBase
-from mcbo.models.gp.combo_gp import ComboGPModel, ComboEnsembleGPModel
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
-from mcbo.utils.constraints_utils import sample_input_valid_points
-from mcbo.utils.data_buffer import DataBuffer
-from mcbo.utils.discrete_vars_utils import get_discrete_choices
-from mcbo.utils.distance_metrics import hamming_distance
-from mcbo.utils.model_utils import move_model_to_device
+from HEBO.MCBO.mcbo.acq_funcs import AcqBase
+from HEBO.MCBO.mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.models.gp.combo_gp import ComboGPModel, ComboEnsembleGPModel
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
+from HEBO.MCBO.mcbo.utils.constraints_utils import sample_input_valid_points
+from HEBO.MCBO.mcbo.utils.data_buffer import DataBuffer
+from HEBO.MCBO.mcbo.utils.discrete_vars_utils import get_discrete_choices
+from HEBO.MCBO.mcbo.utils.distance_metrics import hamming_distance
+from HEBO.MCBO.mcbo.utils.model_utils import move_model_to_device
 
 
 class CasmopolitanTrManager(TrManagerBase):

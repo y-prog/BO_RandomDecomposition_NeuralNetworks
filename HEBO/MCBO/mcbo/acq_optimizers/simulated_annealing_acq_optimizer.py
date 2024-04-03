@@ -11,16 +11,16 @@ from typing import Optional, List, Callable, Dict, Tuple
 import numpy as np
 import torch
 
-from mcbo.acq_funcs import AcqBase
-from mcbo.acq_optimizers import AcqOptimizerBase
-from mcbo.models import ModelBase
-from mcbo.optimizers.non_bo.simulated_annealing import SimulatedAnnealing
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
-from mcbo.utils.data_buffer import DataBuffer
-from mcbo.utils.discrete_vars_utils import get_discrete_choices
-from mcbo.utils.plot_resource_utils import COLORS_SNS_10, get_color
+from HEBO.MCBO.mcbo.acq_funcs import AcqBase
+from HEBO.MCBO.mcbo.acq_optimizers import AcqOptimizerBase
+from HEBO.MCBO.mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.optimizers.non_bo.simulated_annealing import SimulatedAnnealing
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
+from HEBO.MCBO.mcbo.utils.data_buffer import DataBuffer
+from HEBO.MCBO.mcbo.utils.discrete_vars_utils import get_discrete_choices
+from HEBO.MCBO.mcbo.utils.plot_resource_utils import COLORS_SNS_10, get_color
 
 
 class SimulatedAnnealingAcqOptimizer(AcqOptimizerBase):

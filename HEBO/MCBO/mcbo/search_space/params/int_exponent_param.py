@@ -11,7 +11,7 @@
 import numpy as np
 import torch
 
-from mcbo.search_space.params.param import Parameter
+from HEBO.MCBO.mcbo.search_space.params.param import Parameter
 
 
 class IntExponentPara(Parameter):

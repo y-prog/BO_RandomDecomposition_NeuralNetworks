@@ -3,7 +3,7 @@ import torch
 from typing import Union, Dict, Callable, Optional, List
 import pandas as pd
 
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 
 
 def input_eval_from_transfx(transf_x: torch.Tensor, search_space: SearchSpace,

@@ -9,11 +9,11 @@
 
 import torch
 
-from mcbo.search_space import SearchSpace
-from mcbo.tasks import TaskBase, PestControl, CDRH3Design, \
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.tasks import TaskBase, PestControl, CDRH3Design, \
     MigSeqOpt
-from mcbo.tasks.synthetic.sfu.sfu_task import SfuTask
-from mcbo.tasks.synthetic.sfu.utils_sfu import SFU_FUNCTIONS
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_task import SfuTask
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.utils_sfu import SFU_FUNCTIONS
 
 
 def task_factory(task_name: str, **kwargs) -> TaskBase:

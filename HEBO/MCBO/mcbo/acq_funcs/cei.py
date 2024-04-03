@@ -11,9 +11,9 @@ from typing import Union, List
 import torch
 from torch.distributions import Normal
 
-from mcbo.acq_funcs import EI
-from mcbo.acq_funcs.acq_base import ConstrAcqBase
-from mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.acq_funcs import EI
+from HEBO.MCBO.mcbo.acq_funcs.acq_base import ConstrAcqBase
+from HEBO.MCBO.mcbo.models import ModelBase
 
 
 class CEI(ConstrAcqBase):

@@ -9,8 +9,8 @@
 
 import torch
 
-from mcbo.acq_funcs import SingleObjAcqBase
-from mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.acq_funcs import SingleObjAcqBase
+from HEBO.MCBO.mcbo.models import ModelBase
 
 
 class ThompsonSampling(SingleObjAcqBase):

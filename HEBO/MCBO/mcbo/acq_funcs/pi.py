@@ -12,8 +12,8 @@ from typing import Union
 import torch
 from torch.distributions import Normal
 
-from mcbo.acq_funcs.acq_base import SingleObjAcqBase
-from mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.acq_funcs.acq_base import SingleObjAcqBase
+from HEBO.MCBO.mcbo.models import ModelBase
 
 
 class PI(SingleObjAcqBase):

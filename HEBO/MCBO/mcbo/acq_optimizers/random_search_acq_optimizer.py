@@ -11,14 +11,14 @@ from typing import Optional, List, Callable, Dict
 import numpy as np
 import torch
 
-from mcbo.acq_funcs import AcqBase
-from mcbo.acq_optimizers import AcqOptimizerBase
-from mcbo.models import ModelBase
-from mcbo.optimizers import RandomSearch
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.utils.discrete_vars_utils import get_discrete_choices
-from mcbo.utils.model_utils import add_hallucinations_and_retrain_model
+from HEBO.MCBO.mcbo.acq_funcs import AcqBase
+from HEBO.MCBO.mcbo.acq_optimizers import AcqOptimizerBase
+from HEBO.MCBO.mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.optimizers import RandomSearch
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.utils.discrete_vars_utils import get_discrete_choices
+from HEBO.MCBO.mcbo.utils.model_utils import add_hallucinations_and_retrain_model
 
 
 class RandomSearchAcqOptimizer(AcqOptimizerBase):

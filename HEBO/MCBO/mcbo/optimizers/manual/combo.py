@@ -13,13 +13,13 @@ from typing import Optional, Union, List, Callable, Dict
 
 import torch
 
-from mcbo.acq_funcs import acq_factory
-from mcbo.acq_optimizers.local_search_acq_optimizer import LsAcqOptimizer
-from mcbo.models import ComboEnsembleGPModel
-from mcbo.optimizers import BoBase
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
-from mcbo.utils.graph_utils import laplacian_eigen_decomposition
+from HEBO.MCBO.mcbo.acq_funcs import acq_factory
+from HEBO.MCBO.mcbo.acq_optimizers.local_search_acq_optimizer import LsAcqOptimizer
+from HEBO.MCBO.mcbo.models import ComboEnsembleGPModel
+from HEBO.MCBO.mcbo.optimizers import BoBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
+from HEBO.MCBO.mcbo.utils.graph_utils import laplacian_eigen_decomposition
 
 
 class COMBO(BoBase):

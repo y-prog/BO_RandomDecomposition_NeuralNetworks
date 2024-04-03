@@ -7,4 +7,4 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.tasks.antibody_design.cdrh3_design import CDRH3Design
+from HEBO.MCBO.mcbo.tasks.antibody_design.cdrh3_design import CDRH3Design

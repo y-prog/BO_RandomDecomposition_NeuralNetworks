@@ -7,8 +7,8 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.tasks.task_base import TaskBase
-from mcbo.tasks.synthetic.sfu.sfu_base import SfuFunction
-from mcbo.tasks.synthetic import PestControl
-from mcbo.tasks.antibody_design import CDRH3Design
-from mcbo.tasks.mig_seq_opt import MigSeqOpt
+from HEBO.MCBO.mcbo.tasks.task_base import TaskBase
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_base import SfuFunction
+from HEBO.MCBO.mcbo.tasks.synthetic import PestControl
+from HEBO.MCBO.mcbo.tasks.antibody_design import CDRH3Design
+from HEBO.MCBO.mcbo.tasks.mig_seq_opt import MigSeqOpt

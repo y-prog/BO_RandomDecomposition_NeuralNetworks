@@ -14,9 +14,9 @@ import numpy as np
 from .gpytorch.constraints import Interval
 from .gpytorch.kernels import Kernel, MaternKernel, RBFKernel, ScaleKernel
 
-from mcbo.models.gp.kernels import DiffusionKernel, MixtureKernel, Overlap, TransformedOverlap, \
+from HEBO.MCBO.mcbo.models.gp.kernels import DiffusionKernel, MixtureKernel, Overlap, TransformedOverlap, \
     SubStringKernel, HEDKernel
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 
 
 def kernel_factory(

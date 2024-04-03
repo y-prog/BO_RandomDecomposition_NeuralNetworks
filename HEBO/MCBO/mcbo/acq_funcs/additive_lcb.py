@@ -10,8 +10,8 @@
 from typing import Tuple
 import torch
 
-from mcbo.acq_funcs.lcb import LCB
-from mcbo.models.gp.rand_decomposition_gp import RandDecompositionGP
+from HEBO.MCBO.mcbo.acq_funcs.lcb import LCB
+from HEBO.MCBO.mcbo.models.gp.rand_decomposition_gp import RandDecompositionGP
 
 
 class AddLCB(LCB):

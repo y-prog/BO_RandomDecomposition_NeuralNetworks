@@ -11,9 +11,9 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.optimizers.optimizer_base import OptimizerNotBO
-from mcbo.search_space import SearchSpace
-from mcbo.utils.plot_resource_utils import get_color, COLORS_SNS_10
+from HEBO.MCBO.mcbo.optimizers.optimizer_base import OptimizerNotBO
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.utils.plot_resource_utils import get_color, COLORS_SNS_10
 
 
 class HillClimbing(OptimizerNotBO):

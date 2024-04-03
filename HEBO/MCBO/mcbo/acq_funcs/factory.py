@@ -7,12 +7,12 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.acq_funcs.additive_lcb import AddLCB
-from mcbo.acq_funcs.cei import CEI
-from mcbo.acq_funcs.ei import EI
-from mcbo.acq_funcs.lcb import LCB
-from mcbo.acq_funcs.pi import PI
-from mcbo.acq_funcs.thompson_sampling import ThompsonSampling
+from HEBO.MCBO.mcbo.acq_funcs.additive_lcb import AddLCB
+from HEBO.MCBO.mcbo.acq_funcs.cei import CEI
+from HEBO.MCBO.mcbo.acq_funcs.ei import EI
+from HEBO.MCBO.mcbo.acq_funcs.lcb import LCB
+from HEBO.MCBO.mcbo.acq_funcs.pi import PI
+from HEBO.MCBO.mcbo.acq_funcs.thompson_sampling import ThompsonSampling
 
 
 def acq_factory(acq_func_id: str, **kwargs):

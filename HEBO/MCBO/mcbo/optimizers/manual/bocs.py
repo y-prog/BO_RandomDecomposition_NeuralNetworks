@@ -14,13 +14,13 @@ from typing import Optional, Union, List, Callable, Dict
 
 import torch
 
-from mcbo.acq_funcs import acq_factory
-from mcbo.acq_optimizers.simulated_annealing_acq_optimizer import SimulatedAnnealingAcqOptimizer
-from mcbo.models import LinRegModel
-from mcbo.optimizers import BoBase
-from mcbo.search_space import SearchSpace
-from mcbo.search_space.params.bool_param import BoolPara
-from mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
+from HEBO.MCBO.mcbo.acq_funcs import acq_factory
+from HEBO.MCBO.mcbo.acq_optimizers.simulated_annealing_acq_optimizer import SimulatedAnnealingAcqOptimizer
+from HEBO.MCBO.mcbo.models import LinRegModel
+from HEBO.MCBO.mcbo.optimizers import BoBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space.params.bool_param import BoolPara
+from HEBO.MCBO.mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
 
 
 class BOCS(BoBase):

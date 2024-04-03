@@ -15,13 +15,13 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.acq_funcs import AcqBase
-from mcbo.models import ModelBase
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.utils.constraints_utils import input_eval_from_origx, input_eval_from_transfx, \
+from HEBO.MCBO.mcbo.acq_funcs import AcqBase
+from HEBO.MCBO.mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.utils.constraints_utils import input_eval_from_origx, input_eval_from_transfx, \
     sample_input_valid_points
-from mcbo.utils.data_buffer import DataBuffer
+from HEBO.MCBO.mcbo.utils.data_buffer import DataBuffer
 
 
 class AcqOptimizerBase(ABC):

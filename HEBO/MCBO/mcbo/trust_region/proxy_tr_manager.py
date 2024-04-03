@@ -12,9 +12,9 @@ from typing import Union, Optional, List, Callable, Dict
 import pandas as pd
 import torch
 
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region import TrManagerBase
-from mcbo.utils.data_buffer import DataBuffer
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region import TrManagerBase
+from HEBO.MCBO.mcbo.utils.data_buffer import DataBuffer
 
 
 class ProxyTrManager(TrManagerBase):

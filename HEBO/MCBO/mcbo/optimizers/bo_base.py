@@ -15,14 +15,14 @@ import numpy as np
 import pandas as pd
 import torch
 
-from mcbo.acq_funcs import AcqBase
-from mcbo.acq_optimizers import AcqOptimizerBase
-from mcbo.models import ModelBase
-from mcbo.optimizers.optimizer_base import OptimizerBase
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
-from mcbo.trust_region.tr_manager_base import TrManagerBase
-from mcbo.utils.model_utils import move_model_to_device
+from HEBO.MCBO.mcbo.acq_funcs import AcqBase
+from HEBO.MCBO.mcbo.acq_optimizers import AcqOptimizerBase
+from HEBO.MCBO.mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.optimizers.optimizer_base import OptimizerBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
+from HEBO.MCBO.mcbo.trust_region.tr_manager_base import TrManagerBase
+from HEBO.MCBO.mcbo.utils.model_utils import move_model_to_device
 
 
 class BoBase(OptimizerBase):

@@ -10,10 +10,10 @@
 import numpy as np
 import torch
 
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 from typing import Optional, Union, List
 
-from mcbo.utils.general_utils import copy_tensor
+from HEBO.MCBO.mcbo.utils.general_utils import copy_tensor
 
 
 def get_discrete_choices(search_space: SearchSpace,

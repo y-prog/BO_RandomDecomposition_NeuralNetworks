@@ -14,7 +14,7 @@ import pandas as pd
 import torch
 from pymoo.config import Config
 
-from mcbo.utils.plot_resource_utils import COLORS_SNS_10, get_color
+from HEBO.MCBO.mcbo.utils.plot_resource_utils import COLORS_SNS_10, get_color
 
 Config.warnings['not_compiled'] = False
 
@@ -31,12 +31,12 @@ from pymoo.operators.selection.tournament import TournamentSelection
 from pymoo.problems.static import StaticProblem
 from pymoo.util.display.single import SingleObjectiveOutput
 
-from mcbo.optimizers.optimizer_base import OptimizerNotBO
-from mcbo.search_space.search_space import SearchSpace
-from mcbo.trust_region.tr_manager_base import TrManagerBase
-from mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
-from mcbo.utils.distance_metrics import hamming_distance
-from mcbo.utils.pymoo_utils import PymooProblem, GenericRepair
+from HEBO.MCBO.mcbo.optimizers.optimizer_base import OptimizerNotBO
+from HEBO.MCBO.mcbo.search_space.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region.tr_manager_base import TrManagerBase
+from HEBO.MCBO.mcbo.trust_region.tr_utils import sample_numeric_and_nominal_within_tr
+from HEBO.MCBO.mcbo.utils.distance_metrics import hamming_distance
+from HEBO.MCBO.mcbo.utils.pymoo_utils import PymooProblem, GenericRepair
 
 
 class PymooMixedVariableGaWithRepair(GeneticAlgorithm):

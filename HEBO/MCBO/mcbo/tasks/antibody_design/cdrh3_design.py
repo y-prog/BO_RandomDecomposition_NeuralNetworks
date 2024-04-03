@@ -14,8 +14,8 @@ from typing import Optional, List, Dict, Callable, Any
 import numpy as np
 import pandas as pd
 
-from mcbo.tasks import TaskBase
-from mcbo.tasks.antibody_design.utils import get_AbsolutNoLib_dir, download_precomputed_antigen_structure, \
+from HEBO.MCBO.mcbo.tasks import TaskBase
+from HEBO.MCBO.mcbo.tasks.antibody_design.utils import get_AbsolutNoLib_dir, download_precomputed_antigen_structure, \
     get_valid_antigens, compute_developability_scores, check_pattern, get_max_count, MAX_AA_COUNT, get_charge
 
 

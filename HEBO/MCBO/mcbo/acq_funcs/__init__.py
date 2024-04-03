@@ -7,9 +7,9 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.acq_funcs.acq_base import AcqBase, SingleObjAcqBase
-from mcbo.acq_funcs.ei import EI
-from mcbo.acq_funcs.factory import acq_factory
-from mcbo.acq_funcs.lcb import LCB
-from mcbo.acq_funcs.additive_lcb import AddLCB
-from mcbo.acq_funcs.additive_lcb import AddLCB
+from HEBO.MCBO.mcbo.acq_funcs.acq_base import AcqBase, SingleObjAcqBase
+from HEBO.MCBO.mcbo.acq_funcs.ei import EI
+from HEBO.MCBO.mcbo.acq_funcs.factory import acq_factory
+from HEBO.MCBO.mcbo.acq_funcs.lcb import LCB
+from HEBO.MCBO.mcbo.acq_funcs.additive_lcb import AddLCB
+from HEBO.MCBO.mcbo.acq_funcs.additive_lcb import AddLCB

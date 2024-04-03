@@ -14,10 +14,10 @@ import numpy as np
 import torch
 from torch.distributions import MultivariateNormal
 
-from mcbo.models import ModelBase
-from mcbo.search_space import SearchSpace
-from mcbo.utils.onehot_utils import onehot_encode
-from mcbo.utils.training_utils import remove_repeating_samples
+from HEBO.MCBO.mcbo.models import ModelBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.utils.onehot_utils import onehot_encode
+from HEBO.MCBO.mcbo.utils.training_utils import remove_repeating_samples
 
 
 class LinRegModel(ModelBase, torch.nn.Module):

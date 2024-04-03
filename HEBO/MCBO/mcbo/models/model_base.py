@@ -15,7 +15,7 @@ from typing import Optional, List
 
 import torch
 
-from mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.search_space import SearchSpace
 
 
 class ModelBase(ABC):

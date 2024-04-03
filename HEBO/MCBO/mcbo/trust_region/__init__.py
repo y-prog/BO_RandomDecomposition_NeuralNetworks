@@ -7,4 +7,4 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.trust_region.tr_manager_base import TrManagerBase
+from HEBO.MCBO.mcbo.trust_region.tr_manager_base import TrManagerBase

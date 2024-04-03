@@ -16,13 +16,13 @@ import torch
 from ...models.gp.gpytorch.constraints import Interval
 from ...models.gp.gpytorch.priors import Prior
 
-from mcbo.acq_funcs.factory import acq_factory
-from mcbo.acq_optimizers.interleaved_search_acq_optimizer import InterleavedSearchAcqOptimizer
-from mcbo.models import ExactGPModel
-from mcbo.models.gp.kernel_factory import mixture_kernel_factory, kernel_factory
-from mcbo.optimizers import BoBase
-from mcbo.search_space import SearchSpace
-from mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
+from HEBO.MCBO.mcbo.acq_funcs.factory import acq_factory
+from HEBO.MCBO.mcbo.acq_optimizers.interleaved_search_acq_optimizer import InterleavedSearchAcqOptimizer
+from HEBO.MCBO.mcbo.models import ExactGPModel
+from HEBO.MCBO.mcbo.models.gp.kernel_factory import mixture_kernel_factory, kernel_factory
+from HEBO.MCBO.mcbo.optimizers import BoBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.trust_region.casmo_tr_manager import CasmopolitanTrManager
 
 
 class BODi(BoBase):

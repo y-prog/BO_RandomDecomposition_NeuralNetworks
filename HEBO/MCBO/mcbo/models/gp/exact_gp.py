@@ -27,10 +27,10 @@ from .gpytorch.mlls import ExactMarginalLogLikelihood
 from .gpytorch.settings import max_cholesky_size
 
 
-from mcbo.models.gp.kernels import MixtureKernel, get_numeric_kernel_name
-from mcbo.models.model_base import ModelBase
-from mcbo.search_space import SearchSpace
-from mcbo.utils.training_utils import subsample_training_data, remove_repeating_samples
+from HEBO.MCBO.mcbo.models.gp.kernels import MixtureKernel, get_numeric_kernel_name
+from HEBO.MCBO.mcbo.models.model_base import ModelBase
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.utils.training_utils import subsample_training_data, remove_repeating_samples
 
 
 class ExactGPModel(ModelBase, torch.nn.Module):

@@ -7,12 +7,12 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.optimizers.bo_base import BoBase
-from mcbo.optimizers.manual.cocabo import CoCaBO
-from mcbo.optimizers.non_bo.hill_climbing import HillClimbing
-from mcbo.optimizers.optimizer_base import OptimizerBase
-from mcbo.optimizers.non_bo.random_search import RandomSearch
-from mcbo.optimizers.non_bo.simulated_annealing import SimulatedAnnealing
-from mcbo.optimizers.non_bo.multi_armed_bandit import MultiArmedBandit
-from mcbo.optimizers.non_bo.genetic_algorithm import GeneticAlgorithm
-from mcbo.optimizers.bo_builder import BoBuilder
+from HEBO.MCBO.mcbo.optimizers.bo_base import BoBase
+from HEBO.MCBO.mcbo.optimizers.manual.cocabo import CoCaBO
+from HEBO.MCBO.mcbo.optimizers.non_bo.hill_climbing import HillClimbing
+from HEBO.MCBO.mcbo.optimizers.optimizer_base import OptimizerBase
+from HEBO.MCBO.mcbo.optimizers.non_bo.random_search import RandomSearch
+from HEBO.MCBO.mcbo.optimizers.non_bo.simulated_annealing import SimulatedAnnealing
+from HEBO.MCBO.mcbo.optimizers.non_bo.multi_armed_bandit import MultiArmedBandit
+from HEBO.MCBO.mcbo.optimizers.non_bo.genetic_algorithm import GeneticAlgorithm
+from HEBO.MCBO.mcbo.optimizers.bo_builder import BoBuilder

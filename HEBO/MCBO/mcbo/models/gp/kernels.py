@@ -18,8 +18,8 @@ from .gpytorch.kernels import Kernel, RBFKernel, ScaleKernel, MaternKernel
 from .gpytorch.lazy import LazyEvaluatedKernelTensor
 from torch.nn import ModuleList
 
-from mcbo.search_space import SearchSpace
-from mcbo.utils.hed_utils import diverse_random_dict_sample
+from HEBO.MCBO.mcbo.search_space import SearchSpace
+from HEBO.MCBO.mcbo.utils.hed_utils import diverse_random_dict_sample
 
 
 class MixtureKernel(Kernel):

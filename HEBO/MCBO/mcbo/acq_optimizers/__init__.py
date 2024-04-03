@@ -7,4 +7,4 @@
 # WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS FOR A
 # PARTICULAR PURPOSE. See the MIT License for more details.
 
-from mcbo.acq_optimizers.acq_optimizer_base import AcqOptimizerBase
+from HEBO.MCBO.mcbo.acq_optimizers.acq_optimizer_base import AcqOptimizerBase
