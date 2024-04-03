@@ -15,7 +15,10 @@ to a Feed Forward Neural Network as an alterative to the traditional back-propag
            - config_NN_methods.py
            - BO_methods.py
            - BO_pipeline.py
-    which are utilized in Bo_usage.py
+```
+    which are utilized in 
+````
+Bo_usage.py
 ```
 ## Preprocessing Data
 
@@ -35,7 +38,8 @@ You can refer to the preprocessing function as a reference or starting point for
    ```
    conda env create -f environment.yml
    conda activate mcbo_env
-  
+````
+2. Assure the mcbo interpreter is activated   
 
 
 ## Getting Started
