@@ -1,6 +1,6 @@
 from BO_methods import CustomTask
-from HEBO.MCBO.config_NN_methods import flex_NN, activation_functions, loss_functions
-from HEBO.MCBO.BO_pipeline import WeightAndBiasOptimizer
+from config_NN_methods import flex_NN, activation_functions, loss_functions
+from BO_pipeline import WeightAndBiasOptimizer
 from HEBO.MCBO.mcbo.optimizers.bo_builder import BoBuilder
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import MinMaxScaler

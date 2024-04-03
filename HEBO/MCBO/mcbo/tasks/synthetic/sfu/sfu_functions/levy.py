@@ -11,7 +11,7 @@ from typing import Optional
 import numpy as np
 import pandas as pd
 
-from mcbo.tasks.synthetic.sfu.sfu_base import SfuFunction
+from HEBO.MCBO.mcbo.tasks.synthetic.sfu.sfu_base import SfuFunction
 
 
 class Levy(SfuFunction):
