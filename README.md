@@ -28,11 +28,13 @@ You can refer to the preprocessing function as a reference or starting point for
 
 ### Setting up the Environment
 
-1. Create a conda environment (e.g., `mcbo_env`) by running the following command:
-
+1. Install required packages, create an activate the conda environment called mcbo_env by running the following commands:
+   
    ```
-   conda create --name mcbo_env
+   conda env create -f environment.yml
    conda activate mcbo_env
+  
+
 
 ## Getting Started
 1. Clone the repository:
