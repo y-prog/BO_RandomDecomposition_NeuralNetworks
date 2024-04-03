@@ -10,11 +10,11 @@ to a Feed Forward Neural Network as an alterative to the traditional back-propag
 - `BO_RandomDecomposition_NeuralNetworks
 /HEBO/scripts`: Directory containing Bo_usage.py taking the titanic dataset as input.
   - ``BO_RandomDecomposition_NeuralNetworks
-/HEBO/MCBO/`: Subdirectory containing the following:
+/HEBO/scripts: same folder contains
            - config_NN_methods.py
            - BO_methods.py
            - BO_pipeline.py
-    which need to be imported in script.py
+    which are utilized in script.py
 ## Preprocessing Data
 
 This project includes a preprocessing function designed specifically for the Titanic dataset from Kaggle. 
@@ -26,8 +26,17 @@ You can refer to the preprocessing function as a reference or starting point for
 
 ## Usage
 
-To run the main script:
+### Setting up the Environment
 
+1. Install required packages, create an activate the conda environment called mcbo_env by running the following commands:
+   
+   ```
+   conda env create -f environment.yml
+   conda activate mcbo_env
+  
+
+
+## Getting Started
 1. Clone the repository:
    
    git clone https://github.com/y-prog/BO_RandomDecomposition_NeuralNetworks.git
