@@ -8,8 +8,8 @@ The goal of this project is to apply Bayesian Optimization for Multi-layer Perce
   - `config_NN_methods.py`
   - `BO_methods.py`
   - `BO_pipeline.py`
-  - 'proj_methods.py'
-  - 'preprocessors.py'
+  - `proj_methods.py`
+  - `preprocessors.py`
 
 ### Preprocessing Data
 The file called 'preprocessors.py' includes preprocessing functions specifically designed for the four investigated datasets. Depending upon which dataset, its preprocessing function might include handling of the missing data, normalization, feature engineering and encoding; such methods are stored and imported from 'proj_methods.py'.
