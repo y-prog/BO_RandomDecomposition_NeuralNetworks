@@ -12,7 +12,7 @@ The goal of this project is to apply Bayesian Optimization for Multi-layer Perce
   - `preprocessors.py`
 
 ### Preprocessing Data
-The file called 'preprocessors.py' includes preprocessing functions specifically designed for the four investigated datasets. Depending upon which dataset, its preprocessing function might include handling of the missing data, normalization, feature engineering and encoding; such methods are stored and imported from 'proj_methods.py'.
+The file called `preprocessors.py` includes preprocessing functions specifically designed for the four investigated datasets. Depending upon which dataset, its preprocessing function might include handling of the missing data, normalization, feature engineering and encoding; such methods are stored and imported from `proj_methods.py`.
 
 **Note:** If the user would like to test other dataset, the preprocessing method would most likely have to be rewritten. If the features of your dataset vary, you may need to customize or develop additional preprocessing methods to suit the characteristics and requirements of your data. You can refer to the preprocessing function as a reference or starting point for building your own preprocessing pipeline.
 
