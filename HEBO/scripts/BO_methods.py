@@ -7,6 +7,8 @@ from typing import List, Tuple, Any, Dict
 #from mcbo.tasks.task_base import TaskBase
 from HEBO.MCBO.mcbo.tasks.task_base import TaskBase
 
+
+
 class CustomTask(TaskBase):
     def __init__(self, layer_sizes, X_data, y_data):  # pars
         self.layer_sizes = layer_sizes
