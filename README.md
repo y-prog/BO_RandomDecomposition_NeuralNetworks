@@ -4,7 +4,7 @@
 The goal of this project is to apply Bayesian Optimization for Multi-layer Perceptrons architecture to a Feed Forward Neural Network as an alternative to traditional back-propagation.
 
 ## Project Structure
-- `BO_RandomDecomposition_NeuralNetworks/HEBO/scripts`: Directory containing Bo_usage.py taking our datasets as input.
+- `BO_RandomDecomposition_NeuralNetworks/HEBO/scripts`: Directory containing Bo_usage.py taking our datasets preprocessing method as input together with the number of iterations.
   - `config_NN_methods.py`
   - `BO_methods.py`
   - `BO_pipeline.py`
@@ -15,6 +15,10 @@ The goal of this project is to apply Bayesian Optimization for Multi-layer Perce
 The file called `preprocessors.py` includes preprocessing functions specifically designed for the four investigated datasets. Depending upon which dataset, its preprocessing function might include handling of the missing data, normalization, feature engineering and encoding; such methods are stored and imported from `proj_methods.py`.
 
 **Note:** If the user would like to test other dataset, the preprocessing method would most likely have to be rewritten. If the features of your dataset vary, you may need to customize or develop additional preprocessing methods to suit the characteristics and requirements of your data. You can refer to the preprocessing function as a reference or starting point for building your own preprocessing pipeline.
+
+**Note:** Due to the size of `creditcard.csv`, its url has been included in the datasets folder together with the rest of the csv files. In order for this file to be tested, the user will have to manually download it from the provided url and drag it into the dataset folder 
+
+
 
 ## Usage
 
